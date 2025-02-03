@@ -1,0 +1,70 @@
+/* Reset CSS avançado para React */
+
+/* Box sizing e remoção de margens e paddings */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  /* Ajuste de altura e largura padrão */
+  html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+	background-color: #000;
+	color: #333;
+  }
+  
+  /* Imagens, vídeos e elementos gráficos responsivos */
+  img, picture, video, canvas, svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Tipografia e inputs */
+  button, input, select, textarea {
+	font: inherit;
+	background: none;
+	border: none;
+	outline: none;
+  }
+  
+  button {
+	cursor: pointer;
+  }
+  
+  a {
+	text-decoration: none;
+	color: inherit;
+	transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+	color: #007bff;
+  }
+  
+  ul, ol {
+	list-style: none;
+  }
+  
+  /* Removendo estilos padrão de tabelas */
+  table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+  }
+  
+  /* Melhorando acessibilidade */
+  *:focus {
+	outline: 2px solid #007bff;
+	outline-offset: 2px;
+  }
+  
