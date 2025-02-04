@@ -1,11 +1,17 @@
 import './App.css';
 import Header from './Header/Header';
+import Maincontent from './Maincontent/Maincontent';
 import Sidebar from './Sidebar/Sidebar';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
-    <Header></Header>,
-    <Sidebar></Sidebar>
+    <>
+      <Header />
+      <Maincontent />
+      <Sidebar />
+      <Footer />
+    </>
   );
 }
 

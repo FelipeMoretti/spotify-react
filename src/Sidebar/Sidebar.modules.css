@@ -1,23 +1,22 @@
-sidebar{
+.sidebar{
     position: fixed;
     top: 0;
     bottom: 0;
-    pad: 12px;
-    padding: 10px;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
 .sidebar__navigation{
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
-    width: 16vw;
+    width: 300px;
 }
 
 .sidebar__navigation .logo{
     background-color: #121212;
     display: flex;
-    border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 0 0 0 10px;
 }
 
 .sidebar__navigation .logo img{
@@ -25,8 +24,8 @@ sidebar{
 }
 
 .sidebar nav ul{
-    margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    margin-top: 5px;
+    padding: 10px;
 }
 
 .sidebar ul li{
@@ -62,13 +61,18 @@ sidebar{
     font-size: 14px;
     margin-top: 10px;
     font-family: "DM Sans", sans-serif;
-    width: 16vw;
+    width: 300px;
 }
 
 .library .library__content{
     display: flex;
     justify-content: space-between;
     width: 300px;
+}
+
+.library .library__content .icon-book{
+    margin-right: 10px;
+    padding-left: 10px;
 }
 
 .library .library__button{
@@ -91,8 +95,8 @@ sidebar{
     padding-right: 8px;
 }
 
-.library .library__content .fa-plus{
-    margin: 24px 10px;
+.library .library__content .icon-plus{
+    margin: 20px 30px;
     cursor: pointer;
 }
 
@@ -168,5 +172,11 @@ sidebar{
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
-    
+    text-decoration: none;
+    text-transform: none;
+}
+
+.languages .languages__button .icon-globe{
+    color: #fff;
+    margin-right: 4px;
 }

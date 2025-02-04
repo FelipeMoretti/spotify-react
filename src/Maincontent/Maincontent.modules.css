@@ -1,0 +1,26 @@
+.playlist-container{
+    height: 68vh;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    margin-left: 22rem;
+    border-radius: 10px;
+    background-color: #121212;
+}
+
+.playlist{
+    margin: 24px;
+}
+
+.playlist #greeting{
+    color: #fff;
+    padding: 15px 0 10px 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 32px;
+}
+
+.playlist .session{
+    padding: 15px 0 10px 10px;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    font-size: 24px;
+}

@@ -1,8 +1,8 @@
 import React from "react";
-import "./Sidebar.css";
+import "./Sidebar.modules.css";
 import Logo from "../assets/icons/logo-spotify.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faGlobe, faHome, faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faGlobe, faHome, faPlaceOfWorship, faPlus, faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = () => {
     return (
@@ -31,10 +31,10 @@ const Sidebar = () => {
         <div class="library">
             <div class="library__content">
                 <button class="library__button">
-                    <span class="icon"><FontAwesomeIcon icon = {faBook}></FontAwesomeIcon></span>
+                    <span class="icon-book"><FontAwesomeIcon icon = {faBook}></FontAwesomeIcon></span>
                     <span class= "main-text">Sua Biblioteca</span>
                 </button>
-                <span class="fa fa-plus"></span>
+                <span class="icon-plus"><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon></span>
             </div>
             <section class="section-playlist">
                 <div class="section-playlist__content">
@@ -51,7 +51,7 @@ const Sidebar = () => {
             <div class="languages">
                 <button class="languages__button">
                     <span class="icon-globe"><FontAwesomeIcon icon={faGlobe}></FontAwesomeIcon></span>
-                    <span>Português do Brasil</span>
+                    <span class="main-text">Português do Brasil</span>
                 </button>
             </div>
         </div>
