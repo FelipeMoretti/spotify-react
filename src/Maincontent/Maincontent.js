@@ -1,5 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Maincontent.modules.css";
+import { getArtists } from "../SpotifyService";
+
+function Search() {
+
+    const [search, setSearch] = useState([]);
+
+    useEffect(() => {
+        getArtists()
+            .then(data => setSearch(data))
+            .catch(err => console.error(err));
+    }, [])
+}
 
 const Maincontent = () => {
     return (
